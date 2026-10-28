@@ -1,3 +1,4 @@
+
 import 'dart:io';
 
 void main() {
@@ -55,7 +56,12 @@ void main() {
     } else {
       print("You are a minor.");
     }
-  }  if (marks < 0 || marks > 100) {
+  }
+
+  // 6. Grade calculator with marks validation
+  print("\n===== Grade Calculator =====");
+
+  if (marks < 0 || marks > 100) {
     print("Invalid marks");
   } else if (marks >= 90) {
     print("Grade: A");
@@ -69,18 +75,29 @@ void main() {
     print("Grade: F");
   }
 
-  // 6. Grade calculator
-  print("\n===== Grade Calculator =====");
+  // 7. Multiplication table
+  print("\n===== Multiplication Table =====");
 
-  if (marks >= 90) {
-    print("Grade: A");
-  } else if (marks >= 80) {
-    print("Grade: B");
-  } else if (marks >= 70) {
-    print("Grade: C");
-  } else if (marks >= 50) {
-    print("Grade: D");
+  for (int i = 1; i <= 10; i++) {
+    print("$a x $i = ${a * i}");
+  }
+
+  // 8. Even or odd
+  print("\n===== Even or Odd =====");
+
+  if (a % 2 == 0) {
+    print("$a is even");
   } else {
-    print("Grade: F");
+    print("$a is odd");
+  }
+
+  // 9. While loop
+  print("\n===== While Loop =====");
+
+  int count = 1;
+
+  while (count <= 5) {
+    print("Count: $count");
+    count++;
   }
 }
