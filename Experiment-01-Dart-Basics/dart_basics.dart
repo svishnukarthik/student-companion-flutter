@@ -118,4 +118,9 @@ void main() {
     default:
       print("Invalid choice");
   }
+  void displayMessage() {
+  print("\n===== Function Example =====");
+  print("Dart basics experiment completed.");
+}
+  displayMessage();
 }
