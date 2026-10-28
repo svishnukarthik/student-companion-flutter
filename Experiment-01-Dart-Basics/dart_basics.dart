@@ -28,10 +28,13 @@ void main() {
   for (int i = 1; i <= 5; i++) {
     print("Experiment $i");
   }
-
   print("Enter your age:");
   String? input = stdin.readLineSync();
-  int age = int.tryParse(input ?? "") ?? 0;
+  int? age = int.tryParse(input ?? "");
 
-  print("Your age is: $age");
+  if (age == null || age < 0) {
+    print("Invalid age. Please enter a valid age.");
+  } else {
+    print("Your age is: $age");
+  }
 }
