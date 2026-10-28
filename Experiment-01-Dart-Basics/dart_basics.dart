@@ -1,4 +1,6 @@
 
+import 'dart:io';
+
 void main() {
   String name = "Student";
   int rollNumber = 101;
@@ -9,7 +11,6 @@ void main() {
   print("Roll Number: $rollNumber");
   print("Marks: $marks");
 
-  // Arithmetic operations
   int a = 20;
   int b = 5;
 
@@ -18,15 +19,19 @@ void main() {
   print("Multiplication: ${a * b}");
   print("Division: ${a / b}");
 
-  // Conditional statement
   if (passed) {
     print("Result: Pass");
   } else {
     print("Result: Fail");
   }
 
-  // Loop
   for (int i = 1; i <= 5; i++) {
     print("Experiment $i");
   }
+
+  print("Enter your age:");
+  String? input = stdin.readLineSync();
+  int age = int.tryParse(input ?? "") ?? 0;
+
+  print("Your age is: $age");
 }
