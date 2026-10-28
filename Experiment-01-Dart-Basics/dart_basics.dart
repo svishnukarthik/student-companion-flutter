@@ -100,4 +100,22 @@ void main() {
     print("Count: $count");
     count++;
   }
+    // 10. Switch statement
+  print("\n===== Switch Statement =====");
+
+  int choice = 2;
+
+  switch (choice) {
+    case 1:
+      print("Selected: Variables");
+      break;
+    case 2:
+      print("Selected: Conditions");
+      break;
+    case 3:
+      print("Selected: Loops");
+      break;
+    default:
+      print("Invalid choice");
+  }
 }
