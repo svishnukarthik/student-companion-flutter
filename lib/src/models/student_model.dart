@@ -70,14 +70,7 @@ class Assignment {
   final TaskPriority priority;
   final bool isCompleted;
 
-  const Assignment({
-    required this.id,
-    required this.title,
-    required this.courseCode,
-    required this.dueDate,
-    required this.priority,
-    this.isCompleted = false,
-  });
+
 
   Assignment copyWith({
     String? id,
@@ -105,7 +98,14 @@ class StudentProfile {
   final String department;
   final int semester;
   final double targetCgpa;
-
+  const Assignment({
+    required this.id,
+    required this.title,
+    required this.courseCode,
+    required this.dueDate,
+    required this.priority,
+    this.isCompleted = false,
+  });
   const StudentProfile({
     required this.name,
     required this.rollNumber,
