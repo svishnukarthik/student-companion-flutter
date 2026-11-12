@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#0f172a"/>
+  <rect x="40" y="35" width="820" height="450" rx="16" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+  <g fill="#e0e0e0" font-family="Consolas, 'Courier New', monospace" font-size="22">
+    <text x="75" y="130">=== Student Companion Engine ===</text>
+    <text x="75" y="170">Total Credits: 17 | Earned: 17 | CGPA: 3.75</text>
+    <text x="75" y="215">Subject 1: Grade A (4.0) × 4 credits = 16.0</text>
+    <text x="75" y="255">Subject 2: Grade B+ (3.3) × 3 credits = 9.9</text>
+    <text x="75" y="295">Weighted Sum: 25.9 | Total Cr: 7</text>
+    <text x="75" y="335">Semester GPA: 3.70</text>
+    <text x="75" y="380">Attended: 36 / 40 = 90.0%</text>
+    <text x="75" y="420">Status: Attendance requirement satisfied ✓</text>
+    <text x="75" y="455" fill="#10b981">Evaluation: Honors candidate (CGPA 3.75 ≥ 3.7)</text>
+  </g>
+</svg>

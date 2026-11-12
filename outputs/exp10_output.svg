@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#0f172a"/>
+  <rect x="40" y="35" width="820" height="450" rx="16" fill="#1e293b"/>
+  
+  <!-- Checklist -->
+  <g font-family="Arial, sans-serif" font-size="15" fill="#e0e0e0">
+    <text x="70" y="125" fill="#10b981" font-size="17" font-weight="bold">A. Student Companion Automated Test Suites</text>
+    <text x="95" y="155">✓ Unit Tests: GPA calculation, attendance %, threshold computation, course CRUD</text>
+    <text x="95" y="185">✓ Widget Tests: Dashboard metrics, navigation tabs, checkbox toggle interactions</text>
+    <text x="95" y="215">✓ Boundary Tests: 0% &amp; 100% attendance, safe-miss margins, status thresholds</text>
+
+    <text x="70" y="260" fill="#10b981" font-size="17" font-weight="bold">B. Debugging Tools &amp; DevTools</text>
+    <text x="95" y="290">✓ Flutter Inspector: Widget hierarchy, constraints, and layout overflow analysis</text>
+    <text x="95" y="320">✓ DevTools Memory &amp; CPU profiler: Frame times and memory leak prevention</text>
+    <text x="95" y="350">✓ Console Logs &amp; Breakpoints: debugPrint() and state variable inspection</text>
+
+    <text x="70" y="395" fill="#10b981" font-size="17" font-weight="bold">C. Verification Results</text>
+    <text x="95" y="425" fill="#4caf50" font-weight="bold">flutter test: 100% Passed (20 tests) | flutter analyze: No issues found!</text>
+  </g>
+</svg>

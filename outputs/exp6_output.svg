@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#0f172a"/>
+  <rect x="40" y="35" width="820" height="450" rx="16" fill="#1e293b"/>
+  <g font-family="Arial, sans-serif">
+    <text x="450" y="75" fill="#10b981" font-size="16" font-weight="bold" text-anchor="middle">Custom Widgets &amp; ThemeData Palette</text>
+    <!-- Profile Header Widget -->
+    <rect x="70" y="95" width="760" height="75" rx="12" fill="#243248" stroke="#10b981" stroke-width="1"/>
+    <circle cx="120" cy="132" r="22" fill="#10b981"/>
+    <text x="120" y="137" fill="#000" font-size="14" font-weight="bold" text-anchor="middle">AJ</text>
+    <text x="155" y="120" fill="#fff" font-size="16" font-weight="bold">Alex Johnson</text>
+    <text x="155" y="138" fill="#94a3b8" font-size="11">CS-2026-084 • Computer Science &amp; Engineering</text>
+    <text x="155" y="156" fill="#10b981" font-size="11" font-weight="600">Semester 6</text>
+    <!-- Metric Cards -->
+    <rect x="70" y="185" width="370" height="75" rx="12" fill="#243248" stroke="#334155" stroke-width="1"/>
+    <text x="90" y="215" fill="#10b981" font-size="18">⬤</text>
+    <text x="115" y="235" fill="#fff" font-size="22" font-weight="bold">3.75</text>
+    <text x="115" y="250" fill="#94a3b8" font-size="11">CGPA</text>
+    <rect x="460" y="185" width="370" height="75" rx="12" fill="#243248" stroke="#334155" stroke-width="1"/>
+    <text x="480" y="215" fill="#6366f1" font-size="18">⬤</text>
+    <text x="505" y="235" fill="#fff" font-size="22" font-weight="bold">88.8%</text>
+    <text x="505" y="250" fill="#94a3b8" font-size="11">Attendance</text>
+    <!-- Action Buttons -->
+    <rect x="70" y="280" width="760" height="42" rx="10" fill="#10b981"/>
+    <text x="450" y="306" fill="#000" font-size="14" font-weight="bold" text-anchor="middle">View Courses</text>
+    <rect x="70" y="332" width="760" height="42" rx="10" fill="#10b981"/>
+    <text x="450" y="358" fill="#000" font-size="14" font-weight="bold" text-anchor="middle">Track Attendance</text>
+    <rect x="70" y="384" width="760" height="42" rx="10" fill="#10b981"/>
+    <text x="450" y="410" fill="#000" font-size="14" font-weight="bold" text-anchor="middle">Calculate GPA</text>
+    <!-- Theme label -->
+    <text x="450" y="460" fill="#94a3b8" font-size="11" text-anchor="middle">ThemeData: Emerald #10B981 Dark Academia Palette • Material 3</text>
+  </g>
+</svg>

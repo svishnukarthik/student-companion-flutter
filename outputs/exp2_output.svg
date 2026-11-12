@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#0f172a"/>
+  <rect x="40" y="35" width="820" height="450" rx="16" fill="#1e293b"/>
+  <!-- Profile Card (Stack) -->
+  <rect x="70" y="60" width="760" height="100" rx="12" fill="#243248" stroke="#334155" stroke-width="1.5"/>
+  <rect x="740" y="70" width="65" height="24" rx="8" fill="#10b981"/>
+  <text x="752" y="87" fill="#000" font-family="Arial" font-size="11" font-weight="bold">SEM 6</text>
+  <text x="95" y="95" fill="#fff" font-family="Arial" font-size="20" font-weight="bold">Alex Johnson</text>
+  <text x="95" y="115" fill="#94a3b8" font-family="Arial" font-size="12">CS-2026-084 • Computer Science &amp; Engineering</text>
+  <text x="95" y="140" fill="#10b981" font-family="Arial" font-size="12" font-weight="600">Target CGPA: 3.90 • Current: 3.75</text>
+  <!-- Stat Row -->
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="70" y="178" width="240" height="65" rx="10" fill="#243248" stroke="#334155" stroke-width="1"/>
+    <text x="190" y="207" fill="#10b981" font-size="22" font-weight="bold">3.75</text>
+    <text x="190" y="228" fill="#94a3b8" font-size="11">CGPA</text>
+    <rect x="330" y="178" width="240" height="65" rx="10" fill="#243248" stroke="#334155" stroke-width="1"/>
+    <text x="450" y="207" fill="#6366f1" font-size="22" font-weight="bold">88.8%</text>
+    <text x="450" y="228" fill="#94a3b8" font-size="11">Attendance</text>
+    <rect x="590" y="178" width="240" height="65" rx="10" fill="#243248" stroke="#334155" stroke-width="1"/>
+    <text x="710" y="207" fill="#f59e0b" font-size="22" font-weight="bold">3</text>
+    <text x="710" y="228" fill="#94a3b8" font-size="11">Pending</text>
+  </g>
+  <!-- Course List -->
+  <g font-family="Arial" font-size="14" fill="#fff">
+    <rect x="70" y="260" width="760" height="42" rx="8" fill="#243248" stroke="#334155" stroke-width="1"/>
+    <text x="95" y="286" fill="#6366f1" font-weight="bold" font-size="12">CS301</text>
+    <text x="155" y="286">Data Structures &amp; Algorithms</text>
+    <text x="790" y="286" fill="#10b981" font-weight="bold" text-anchor="end">90.0%</text>
+    <rect x="70" y="310" width="760" height="42" rx="8" fill="#243248" stroke="#334155" stroke-width="1"/>
+    <text x="95" y="336" fill="#6366f1" font-weight="bold" font-size="12">CS302</text>
+    <text x="155" y="336">Mobile Application Development</text>
+    <text x="790" y="336" fill="#10b981" font-weight="bold" text-anchor="end">89.5%</text>
+    <rect x="70" y="360" width="760" height="42" rx="8" fill="#243248" stroke="#334155" stroke-width="1"/>
+    <text x="95" y="386" fill="#6366f1" font-weight="bold" font-size="12">CS303</text>
+    <text x="155" y="386">Database Management Systems</text>
+    <text x="790" y="386" fill="#10b981" font-weight="bold" text-anchor="end">90.0%</text>
+    <rect x="70" y="410" width="760" height="42" rx="8" fill="#243248" stroke="#334155" stroke-width="1"/>
+    <text x="95" y="436" fill="#6366f1" font-weight="bold" font-size="12">CS304</text>
+    <text x="155" y="436">Computer Networks</text>
+    <text x="790" y="436" fill="#10b981" font-weight="bold" text-anchor="end">87.5%</text>
+  </g>
+</svg>
